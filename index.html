@@ -9,7 +9,7 @@
 <style>html,body{margin:0;height:100%;background:#1A1D1B}#backlink{position:fixed;top:14px;right:16px;z-index:20;font:500 12.5px/1 system-ui,sans-serif;letter-spacing:.06em;color:#ECE8DE;text-decoration:none;padding:8px 14px;border:1px solid rgba(236,232,222,.25);border-radius:999px;background:rgba(20,23,22,.45);backdrop-filter:blur(6px)}#backlink:hover{border-color:#C9A45C;color:#C9A45C}</style>
 </head>
 <body>
-<a id="backlink" href="https://yufangfrida.github.io/">← Portfolio</a>
+<a id="backlink" href="https://yufangyuri.github.io/">← Portfolio</a>
 
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -5457,7 +5457,7 @@ function water(w, d, p, o) {
 // heightfield terrain (lakes carve the ground) · translucent level water with depth gradient
 // grounded models · dense instanced ground cover · layered fog slices
 // =====================================================================
-const MODEL_BASE = 'models/';
+const MODEL_BASE = '';
 const GLB = {}; // url -> Promise<gltf>
 const LOADSTAT = { ok: 0, fail: 0, pending: 0 };
 function loadStatus() { const el = document.getElementById('loadstat'); if (el) el.textContent = LOADSTAT.pending ? `模型加载中… ${LOADSTAT.ok} 个已就绪` : (LOADSTAT.fail ? `${LOADSTAT.ok} 个模型已加载 · ${LOADSTAT.fail} 个暂缺` : ''); }
